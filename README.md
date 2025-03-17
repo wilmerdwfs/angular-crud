@@ -1,59 +1,57 @@
-# CrudCChar
+<h2>📌 Composición de la Aplicación</h2>
+<ul>
+    <li><strong>Frontend:</strong> Angular (Última versión)</li>
+    <li><strong>Backend:</strong> API basada en Entity Framework Core</li>
+    <li><strong>Base de Datos:</strong> Simulación en memoria con Entity Framework Core</li>
+    <li><strong>Servicios Adicionales:</strong> Inyecciones de dependencias, validaciones de campo y uso de servicios</li>
+</ul>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+<h2>⚙️ Despliegue de la Aplicación</h2>
 
-## Development server
+<h3>1️⃣ Requisitos Previos</h3>
+<ul>
+    <li>Node.js y npm</li>
+    <li>Angular CLI (Última versión)</li>
+    <li>Acceso a la API</li>
+</ul>
 
-To start a local development server, run:
+<h3>2️⃣ Instalación y Configuración</h3>
+<p>Clona el repositorio y accede a la carpeta del proyecto:</p>
+<pre><code>git clone https://github.com/wilmerdwfs/angular-crud.git
 
-```bash
-ng serve
-```
+<h3>3️⃣ Ejecución del Proyecto</h3>
+<p>Para iniciar la aplicación, usa el siguiente comando:</p>
+<pre><code>ng serve</code></pre>
+<p>Después de ejecutar este comando, accede a: <a href="http://localhost:4200/">http://localhost:4200/</a> en tu navegador.</p>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<h2>📂 Estructura de la Aplicación</h2>
+<p>La aplicación sigue los principios <strong>SOLID</strong>, asegurando que cada archivo tenga una única responsabilidad. La estructura del proyecto está organizada de la siguiente manera:</p>
+<pre>
 
-## Code scaffolding
+<p>La aplicación implementa:</p>
+<ul>
+    <li>✅ Inyección de dependencias</li>
+    <li>✅ Validaciones de campos</li>
+    <li>✅ Servicios reutilizables</li>
+</ul>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<h2>🔍 Notas Adicionales</h2>
 
-```bash
-ng generate component component-name
-```
+<h3>Configuración de la API</h3>
+<ul>
+    <li>Asegúrate de configurar correctamente los permisos de acceso de la API distribuida.</li>
+    <li>Para desplegar la API en <strong>Visual Studio</strong>:</li>
+    <ol>
+        <li>Crea un nuevo proyecto en Visual Studio.</li>
+        <li>Descarga los archivos y copia:</li>
+        <ul>
+            <li>📄 Modelos</li>
+            <li>📄 Controladores</li>
+            <li>📂 Carpeta <code>Data</code></li>
+            <li>⚙️ Archivos de configuración</li>
+        </ul>
+        <li>Alternativamente, copia los archivos en la carpeta de ejecución de Visual Studio y simplemente ejecuta el proyecto.</li>
+    </ol>
+</ul>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<p>📌 <strong>En caso de errores, revisa los logs y consulta la documentación oficial.</strong></p>
